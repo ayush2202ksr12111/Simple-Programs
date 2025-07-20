@@ -1,0 +1,9 @@
+
+# There is a stock list from which you want the maximum price & minimum price
+
+def get_max_min(prices_list):
+    return max(prices_list), min(prices_list)
+
+max_price, min_price = get_max_min([12, 18, 20 , 24, 28, 29])
+    
+print(f"Max price is {max_price} & Minimum price is % {min_price} ")
